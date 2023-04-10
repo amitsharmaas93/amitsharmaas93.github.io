@@ -1,0 +1,84 @@
+/* Set default styles for the page */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar */
+  #navbar {
+    background-color:red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    display:flex;
+    justify-content: right;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the intro section */
+  #intro-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+  /* Style the welcome section */
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style the projects section */
+  #projects-section {
+    padding: 50px;
+  }
+  
+  .project-tile {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-tile h3 {
+    margin-top: 0;
+  }
+  
+  .project-tile p {
+    margin-bottom: 10px;
+  }
+  
+  .project-tile a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    #projects-section {
+      background-color: #f7f7f7;
+    }
+  }
